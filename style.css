@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-repeat: repeat;
+  height: 77.8vh;
+}
+main {
+  background-color: white;
+  padding: 5%;
+  border-radius: 20px;
+  height: 200px;
+
+  background-image: radial-gradient(
+    circle at 100% 0%,
+    #84aeff 0,
+    #0070fa 50%,
+    #003694 100%
+  );
+}
+p {
+  color: white;
+  font-family: "Sigmar", cursive;
+}
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
